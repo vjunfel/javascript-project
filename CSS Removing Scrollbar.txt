@@ -1,0 +1,14 @@
+// CSS tricks in removing scrollbar
+
+// Removing scrollbar in Chrome
+
+html::-webkit-scrollbar{
+	display: none;
+}
+
+
+// Removing scrollbar in Firefox
+
+html{
+scrollbar-width:none;
+}
